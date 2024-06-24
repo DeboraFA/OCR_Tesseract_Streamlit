@@ -3,6 +3,14 @@ import pytesseract
 from PIL import Image
 
 
+# Verifica se está rodando no Streamlit Sharing ou localmente
+if st._is_running_with_streamlit:
+    pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
+else:
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Exemplo para Windows
+
+# Restante do seu código Streamlit
+
 
 # Título da aplicação
 st.title("Aplicação OCR com Tesseract e Streamlit")
