@@ -20,7 +20,7 @@ cd nome-do-repositorio
 
 pip install -r requirements.txt
 
-Observação: Baixe e instale o Tesseract usando esse link https://github.com/UB-Mannheim/tesseract/wiki. Execute o instalador e siga as instruções de instalação padrão. Certifique-se de lembrar o caminho de instalação (geralmente C:\Program Files\Tesseract-OCR). Adicione o caminho de instalação do Tesseract ao path das variáveis de ambiente do sistema.
+**Observação**: Baixe e instale o Tesseract, para Windows utilize o [link](https://github.com/UB-Mannheim/tesseract/wiki). Execute o instalador e siga as instruções de instalação padrão. Certifique-se de lembrar o caminho de instalação (geralmente C:\Program Files\Tesseract-OCR). Adicione o caminho de instalação do Tesseract ao path das variáveis de ambiente do sistema.
 
 
 
