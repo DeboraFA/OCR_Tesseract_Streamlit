@@ -14,12 +14,17 @@ Exibição do Texto: Mostra o texto extraído da imagem diretamente na interface
 ## Como Usar
 Instalação: Clone este repositório e instale as dependências listadas no arquivo requirements.txt.
 
-
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 cd nome-do-repositorio
 
 pip install -r requirements.txt
+
+Observação: Baixe e instale o Tesseract usando esse link https://github.com/UB-Mannheim/tesseract/wiki. Execute o instalador e siga as instruções de instalação padrão. Certifique-se de lembrar o caminho de instalação (geralmente C:\Program Files\Tesseract-OCR). Adicione o caminho de instalação do Tesseract ao path das variáveis de ambiente do sistema.
+
+
+
+
 
 Execução: Execute o script OCR_example.py utilizando o Streamlit.
 
